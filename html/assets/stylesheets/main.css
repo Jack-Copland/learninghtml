@@ -28,7 +28,7 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 body {
-  background-color: magenta;
+  background-color: #512DA8;
   line-height: 1;
 }
 ol, ul {
