@@ -257,7 +257,7 @@ Custom Styles
 =====================================
 */
 body {
-    background: #294f50;
+    background: #293f50;
     color: #888;
     font-weight: 300;
     font-size: 16px;
@@ -327,3 +327,16 @@ Rows
     padding: 44px 0 22px 0;
 }
 
+/*
+==================================
+Leads
+==================================
+*/
+
+.lead {
+    text-align: center;
+}
+.lead p {
+    font-size: 21px;
+    line-height: 33px;
+}
