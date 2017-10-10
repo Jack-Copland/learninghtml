@@ -1,0 +1,155 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end of reset, my css changes start here */
+
+
+/*
+==============================
+Grid
+==============================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container,
+.grid {
+  margin: 0 auto;
+}
+
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.col-1-2 {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+}
+
+  /*
+==================================
+clearfix
+==================================
+*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear:both;
+}
+
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+/* header */
+
+.tagline,
+.logo {
+  color: #dbd4dd;
+}
+
+.logo {
+  text-align: center;
+  font-size: 44px;
+  line-height: 1.5;
+  padding: 60px 0 60px 0;
+}
+
+.tagline {
+  text-align: right;
+  padding-right: 15px;
+}
+
+
+/* body */
+
+body {
+  background-color: purple;
+}
+
+.hero {
+  background-color: white;
+  border-top: 6px solid #d76ff7;
+  border-bottom: 6px solid #d76ff7;
+  border-radius: 15px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.main-text {
+  text-align: center;
+}
+
+/* Playing around with things at the bottom */
+
+.grid-text {
+  text-align: center;
+}
+
+.grid-img {
+  border: 1px solid #9799a7;
+  width: 100%;
+  height: 500px;
+}
